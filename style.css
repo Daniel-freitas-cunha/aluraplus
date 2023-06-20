@@ -176,3 +176,35 @@ margin: 5em 3em;
     color: var(--cor-do-fundo);
     background-color: var(--botao-efeito);
 }
+
+@media screen and (max-whidth :768px) {
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+
+    .container__caixa{
+        margin: 2em 2em;
+    }
+
+    .secundario{
+        text-align: center;
+        margin: 0;
+    }
+
+    .secundario__imagem{
+        width: 50vw;
+    }
+
+    .dispositivos__listas{
+        display: block;
+    }
+
+    .rodape_listas{
+        display: block;
+    }
+}
